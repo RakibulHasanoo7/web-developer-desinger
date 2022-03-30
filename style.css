@@ -1,0 +1,25 @@
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    padding-left: 10px;
+}
+.developer-name{
+    color: rgb(255, 60, 0);
+}
+.welcomed{
+    font-size: 45px;
+    text-align: center;
+}
+.skill-name{
+    color: orangered;
+}
+.intro{
+    padding-left: 35px;
+}
+.graphics-skill{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    background-image: linear-gradient(orange, red);
+    padding: 10px 40px;
+    border-radius: 10px;
+}
