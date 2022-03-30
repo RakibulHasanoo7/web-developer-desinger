@@ -1,25 +1,51 @@
 body{
     font-family: 'Lexend Deca', sans-serif;
-    padding-left: 10px;
-}
-.developer-name{
-    color: rgb(255, 60, 0);
 }
 .welcomed{
-    font-size: 45px;
+    font-size:45px ;
     text-align: center;
+    color: rgba(252, 0, 189, 0.801);
 }
-.skill-name{
-    color: orangered;
+.flexible{
+    display: flex;
 }
-.intro{
-    padding-left: 35px;
+.half-width{
+    width: 50%;
 }
-.graphics-skill{
-    color: white;
-    font-weight: 700;
-    text-decoration: none;
-    background-image: linear-gradient(orange, red);
-    padding: 10px 40px;
-    border-radius: 10px;
+.developer-name{
+    color: rgb(29, 252, 0);
+}
+.skill-graphics{
+    text-align: center;
+    color: coral;
+    background-color: aquamarine;
+    margin-right:40% ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+
+}
+.skill-developer{
+    color: indianred;
+    text-align: center;
+    color: coral;
+    background-color: aquamarine;
+    margin-left:40% ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+.paragraph-graphics{
+    text-align: justify;
+    padding: 10% 40%;
+    box-shadow: 5px 10px 25px rgb(54, 54, 54);
+    padding:10% 10% ;
+    border-radius: 30px;
+}
+.paragraph-web{
+    text-align: justify;
+    padding: 10% 40%;
+    box-shadow: 5px 10px 25px rgb(54, 54, 54);
+    padding:10% 10% ;
+    border-radius: 30px;
 }
