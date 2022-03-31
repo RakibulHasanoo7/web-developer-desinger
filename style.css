@@ -8,6 +8,7 @@ body{
 }
 .flexible{
     display: flex;
+    padding-top: 60px;
 }
 .half-width{
     width: 50%;
@@ -17,35 +18,52 @@ body{
 }
 .skill-graphics{
     text-align: center;
-    color: coral;
-    background-color: aquamarine;
+    color: rgb(255, 255, 255);
+    background-color: rgb(1, 102, 68);
     margin-right:40% ;
-    padding-top: 10px;
+     padding-top: 10px;
     padding-bottom: 10px;
-    border-radius: 20px;
+    border-radius: 20px; 
+    border-style: solid;
+    border-right-width: 5px;
 
 }
 .skill-developer{
-    color: indianred;
+    color: rgb(255, 255, 255);
     text-align: center;
-    color: coral;
-    background-color: aquamarine;
+    background-color: rgb(1, 102, 68);
     margin-left:40% ;
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 20px;
 }
-.paragraph-graphics{
+.graphic-data{
     text-align: justify;
-    padding: 10% 40%;
-    box-shadow: 5px 10px 25px rgb(54, 54, 54);
-    padding:10% 10% ;
-    border-radius: 30px;
+    padding: 10% 10%;
+    box-shadow: 5px 10px 25px rgb(54, 54, 54); 
+    margin-left: 10%;
+    margin-right: 5%;
+    border-left: 15px solid;
+    border-image: linear-gradient(blue, cyan );
+    border-image-slice: 1;
+    border-radius: 10px;
 }
-.paragraph-web{
+.me-graphic{
+    color: RED;
+}
+.web-data{
     text-align: justify;
-    padding: 10% 40%;
-    box-shadow: 5px 10px 25px rgb(54, 54, 54);
-    padding:10% 10% ;
-    border-radius: 30px;
+    padding: 10% 10%;
+    box-shadow: 5px 10px 25px rgb(54, 54, 54); 
+    margin-right: 10%;
+    margin-left: 5%;
+    border-left: 15px solid;
+    border-image: linear-gradient(rgb(248, 223, 0), rgb(206, 2, 247) );
+    border-image-slice: 1;
+    border-radius: 10px;
 }
+.me-web{
+    color:maroon;
+}
+    
+
