@@ -1,69 +1,104 @@
-body{
+body {
     font-family: 'Lexend Deca', sans-serif;
 }
-.welcomed{
-    font-size:45px ;
+
+.welcomed {
+    font-size: 45px;
     text-align: center;
     color: rgba(252, 0, 189, 0.801);
 }
-.flexible{
+
+.flexible {
     display: flex;
     padding-top: 60px;
 }
-.half-width{
+
+.half-width {
     width: 50%;
 }
-.developer-name{
-    color: rgb(29, 252, 0);
+
+.developer-name {
+    color: rgb(28, 179, 8);
+    font-size: 65px;
+
 }
-.skill-graphics{
+
+.skill-graphics {
     text-align: center;
     color: rgb(255, 255, 255);
     background-color: rgb(1, 102, 68);
-    margin-right:20% ;
-     padding-top: 10px;
+    margin-right: 20%;
+    padding-top: 10px;
     padding-bottom: 10px;
-    border-radius: 20px; 
+    border-radius: 20px;
     border-style: solid;
     border-right-width: 5px;
 
 }
-.skill-developer{
+
+.skill-developer {
     color: rgb(255, 255, 255);
     text-align: center;
     background-color: rgb(1, 102, 68);
-    margin-left:20% ;
+    margin-left: 20%;
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 20px;
 }
-.graphic-data{
+
+.graphic-data {
     text-align: justify;
     padding: 10% 10%;
-    box-shadow: 5px 10px 25px rgb(54, 54, 54); 
+    box-shadow: 5px 10px 25px rgb(54, 54, 54);
     margin-left: 10%;
     margin-right: 5%;
     border-left: 15px solid;
-    border-image: linear-gradient(blue, cyan );
+    border-image: linear-gradient(blue, cyan);
     border-image-slice: 1;
     border-radius: 10px;
 }
-.me-graphic{
+
+.me-graphic {
     color: RED;
 }
-.web-data{
+
+.web-data {
     text-align: justify;
     padding: 10% 10%;
-    box-shadow: 5px 10px 25px rgb(54, 54, 54); 
+    box-shadow: 5px 10px 25px rgb(54, 54, 54);
     margin-right: 10%;
     margin-left: 5%;
     border-left: 15px solid;
-    border-image: linear-gradient(rgb(248, 223, 0), rgb(206, 2, 247) );
+    border-image: linear-gradient(rgb(12, 245, 82), rgb(206, 2, 247));
     border-image-slice: 1;
     border-radius: 10px;
 }
-.me-web{
+
+.me-web {
     color: RED;
 }
-    
 
+.graphics-world {
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.graphics-box {
+    background-color: yellow;
+    color: rgb(255, 0, 0);
+    margin-right: 65%;
+    padding: 5px 2px 10px 2px;
+    border-radius: 20px;
+}
+
+
+.graphics-do {
+    margin-left: 5%;
+    color: coral;
+    font-size: 22px;
+}
+
+.graphics-list {
+    list-style-type: decimal;
+    font-size: 20px;
+}
