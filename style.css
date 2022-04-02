@@ -94,11 +94,11 @@ body {
 
 .graphics-do {
     margin-left: 5%;
-    color: coral;
+    color: rgb(253, 0, 148);
     font-size: 22px;
 }
 
 .graphics-list {
-    list-style-type: decimal;
+    list-style-type: disc;
     font-size: 20px;
 }
